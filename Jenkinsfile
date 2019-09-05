@@ -27,7 +27,7 @@ stages
 	{
 	 	steps
 		{	
-		 	sh 'mvn -f pom.xml -B clean install -U -Dmaven.test.skip=true'
+		 	sh 'mvn clean install'
 		}
 	}
 
@@ -36,7 +36,7 @@ stages
 	{
 	 	steps
 		{	
-		 	sh 'mvn -f pom.xml -B test'
+		 	sh 'mvn clean site'
 		}
 	}
 
