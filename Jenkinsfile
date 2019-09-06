@@ -27,7 +27,7 @@ stages
 	{
 	 	steps
 		{	
-		 	bat 'maven clean install'
+		 	bat 'mvn clean install'
 		}
 	}
 
@@ -36,7 +36,7 @@ stages
 	{
 	 	steps
 		{	
-		 	bat 'maven clean site'
+		 	bat 'mvn clean site'
 		}
 	}
 
