@@ -27,7 +27,7 @@ stages
 	{
 	 	steps
 		{	
-		 	sh 'mvn clean install'
+		 	'mvn clean install'
 		}
 	}
 
@@ -36,7 +36,7 @@ stages
 	{
 	 	steps
 		{	
-		 	sh 'mvn clean site'
+		 	'mvn clean site'
 		}
 	}
 
