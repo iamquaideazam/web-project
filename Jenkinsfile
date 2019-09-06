@@ -27,7 +27,7 @@ stages
 	{
 	 	steps
 		{	
-		 	checkout scm
+		 	sh 'maven clean install'
 		}
 	}
 
@@ -36,7 +36,7 @@ stages
 	{
 	 	steps
 		{	
-		 	checkout scm
+		 	sh 'maven clean site'
 		}
 	}
 
