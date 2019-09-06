@@ -27,7 +27,7 @@ stages
 	{
 	 	steps
 		{	
-		 	
+		 	checkout scm
 		}
 	}
 
@@ -36,7 +36,7 @@ stages
 	{
 	 	steps
 		{	
-		 	
+		 	checkout scm
 		}
 	}
 
